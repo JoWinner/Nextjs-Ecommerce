@@ -121,7 +121,6 @@ Keep the admin side app and frontend app running, ngrok must also be running in 
 
 - At store signin/signup with clerk( Clerk will add your info to the database)
 
-After fresh signup/signin, notice an error at the frontend store app, goto "Billboard" page at the admin dashboard click the 3 horizontal dots on any of the billboards you have added and next click "Copy Id". Paste this copied id in the `.env` file of the store app at; **Home_Billboard= xxxxx-xxxxx-xxxx-xxxxx-xxxxxxx**
 
 Everything should be perfect here.
 
